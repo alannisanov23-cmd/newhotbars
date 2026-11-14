@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "biomehotbar",
+  "version": "${version}",
+  "name": "Biome Hotbar",
+  "description": "A cosmetic hotbar that changes with your biome: bubbles and waves in water, falling leaves in forests, snowflakes on ice, embers in the Nether, and more.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.biomehotbar.BiomeHotbarClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": ">=26.2", "fabric-api": "*" }
+}
